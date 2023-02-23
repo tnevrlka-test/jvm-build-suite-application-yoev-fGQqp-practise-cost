@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-dznw
+  namespace: jvm-build-ftus-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:117932baeccb5d9c89825a4cbfaf03c80c3d3fa1fe60c9e467c891c46d0e4eb1
+        name: container-image
+        resources: {}
+status: {}
