@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-dznw
     app.kubernetes.io/part-of: jvm-build-suite-application-yoev
-  name: jvm-build-suite-component1bty
+  name: jvm-build-suite-componentxeyi
   namespace: jvm-build-ftus-tenant
 spec:
   port:
